@@ -3,11 +3,9 @@ body{
     font-family:'Averia Sans Libre', sans-serif;
 }
 
-
 .row{
     margin: 0;
 }
-
 
 .container{
     padding: 70px 0;
@@ -43,4 +41,40 @@ header, .navbar{
 
 .navbar-expand-lg .nav nav-tabs .nav-link{
     padding: 1rem .8rem;
+}
+
+/*Home*/
+.container{
+    padding: 0;
+    margin-top: 350px;
+}
+
+.home-social-icon{
+    font-size: 50px;
+    color: black;
+}
+
+.home-social-icon:hover{
+    color: rgb(129, 194, 194);
+}
+
+.main-title{
+    color: rgb(129, 194, 194);
+    font-size: 50px;
+    font-weight: 700;
+    letter-spacing: .1em;
+    margin: .67em 0;
+    text-align: center;
+    bottom: 50%;
+}
+
+.second-title{
+    color: rgb(92, 91, 91);
+    margin-top: -.67rem;
+    font-size: 40px;
+    font-weight: 400;
+    padding-left: 0;
+    text-align: center;
+    margin-bottom: 30px;
+    bottom: 50%;
 }
