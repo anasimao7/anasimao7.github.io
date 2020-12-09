@@ -1,0 +1,46 @@
+/*Gerais*/
+body{
+    font-family:'Averia Sans Libre', sans-serif;
+}
+
+
+.row{
+    margin: 0;
+}
+
+
+.container{
+    padding: 70px 0;
+}
+
+p, li{
+    color: grey;
+    font-size: 14px;
+}
+
+/*Barra de Navegação*/
+header, .navbar{
+    background-color: rgb(242, 245, 245);
+}
+
+#nav-container{
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.navbar-brand{
+    padding: 0;
+    color: black;
+}
+
+.navbar-brand:hover{
+    color: rgb(129, 194, 194);
+}
+
+#navbar-links a{
+    color: black;
+}
+
+.navbar-expand-lg .nav nav-tabs .nav-link{
+    padding: 1rem .8rem;
+}
