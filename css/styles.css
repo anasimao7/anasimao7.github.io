@@ -78,3 +78,22 @@ header, .navbar{
     margin-bottom: 30px;
     bottom: 50%;
 }
+
+/*Sobre*/
+#about-area{
+    background-color: rgb(206, 238, 234);
+}
+
+#about-area p{
+    font-size: 20px;
+}
+
+#about-list{
+    list-style: none;
+}
+
+.icon{
+    font-size: 50px;
+    float: left;
+    padding: 12px;
+}
