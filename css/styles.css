@@ -97,3 +97,59 @@ header, .navbar{
     float: left;
     padding: 12px;
 }
+
+.main-button{
+    display: block;
+    height: auto;
+    width: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 90px;
+    background-color: rgb(30, 109, 109);
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 15px 20px;
+    border: 1px solid #eee;
+    border-radius: 6px;
+    transition: .5s;
+}
+
+.main-button:hover{
+    text-decoration: none;
+    color: rgb(22, 56, 100);
+    background-color: transparent;
+    border-color: rgb(30, 109, 109);
+}
+
+/*Projetos*/
+.card-body{
+    text-align: center;
+}
+
+.card-title{
+    font-size: 20px;
+}
+
+#project-area p{
+    font-size: 15px;
+}
+
+/*Zoom*/
+.zoom{
+    overflow: hidden;
+}
+
+.zoom img{
+    max-width: 100%;
+    -moz-transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+.zoom:hover img{
+    -moz-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
