@@ -153,3 +153,43 @@ header, .navbar{
     transform: scale(1.1);
 }
 
+/*Contactos*/
+#contact-area{
+    background-color: rgb(206, 238, 234);
+    text-align: center;
+}
+
+.contact-box p{
+    font-size: 20px;
+}
+
+.contact-title{
+    font-weight: bold;
+    color: teal;
+}
+
+/*Copyright*/
+#copy-area{
+    background-color: rgb(233, 228, 228);
+}
+
+#copy-area .container{
+    padding: 10px 0;
+    text-align: center;
+}
+
+#copy-area .container p{
+    margin-bottom: 0;
+}
+
+#copy-area .container a{
+    font-weight: bold;
+    color: rgb(75, 74, 74);
+}
+
+#copy-area .container a:hover{
+    text-decoration: none;
+    color: teal;
+}
+
+
