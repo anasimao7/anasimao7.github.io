@@ -39,15 +39,18 @@ section{
     border: none;
     border-radius: 12px;
     box-shadow: 0 9px #999;
-  }
+    width: 250px;
+}
  
-  .button:hover {background-color: rgb(147, 113, 211)}
+.button:hover {
+    background-color: rgb(147, 113, 211)
+}
   
-  .button:active {
+.button:active {
     background-color:rgb(100, 60, 175);
     box-shadow: 0 5px #666;
     transform: translateY(4px);
-  }
+}
 
 div{
     text-align: center;
@@ -59,3 +62,23 @@ footer{
     text-align: center;
     font-style: italic;
 }
+
+/*Sobre*/
+img{
+    float: right;
+    width: 250px;
+    height: 320px;
+}
+div#msg{
+    text-align: left;
+}
+
+.voltar{
+    font-size: 50px;
+    color: white;
+}
+
+.voltar:hover{
+    color: rgb(147, 113, 211);
+}
+
