@@ -17,6 +17,11 @@ section{
     box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.363);
 }
 
+.bold{
+    font-weight: bold;
+    color: rgb(147,113,211);
+}
+
 .home-social-icon{
     font-size: 50px;
     color: black;
@@ -82,3 +87,31 @@ div#msg{
     color: rgb(147, 113, 211);
 }
 
+/*Contactos*/
+.contact-box i{
+    color: rgb(147,113,211);
+    border: solid 1px rgb(147,113,211);
+    border-radius: 50%;
+    width: 55px;
+    height: 55px;
+    line-height: 55px;
+    font-size: 24px;
+}
+
+.zoom{
+    padding: 60px;
+    transition: transform .2s;
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+}
+
+.zoom:hover {
+    -ms-transform: scale(1.5);
+    -webkit-transform: scale(1.5); 
+    transform: scale(1.5); 
+}
+
+* {
+    box-sizing: border-box;
+  }
