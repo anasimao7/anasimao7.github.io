@@ -8,6 +8,13 @@ header{
     text-align: center;
 }
 
+/*Responsivo*/
+@media screen and (max-width: 425px) {
+    header{
+        width: 500px;
+    }
+}
+
 section{
     background: white;
     border-radius: 10px;
@@ -15,6 +22,30 @@ section{
     width: 500px;
     margin: auto;
     box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.363);
+}
+
+/*Responsivo*/
+@media screen and (max-width: 425px) {
+    section{
+        width: 490px;
+    }
+}
+div{
+    text-align: center;
+    padding: 8px; /*serve para criar espaço*/
+}
+
+footer{
+    color: white;
+    text-align: center;
+    font-style: italic;
+}
+
+/*Responsivo*/
+@media screen and (max-width: 425px) {
+    footer{
+        width: 500px;
+    }
 }
 
 .bold{
@@ -56,16 +87,13 @@ section{
     box-shadow: 0 5px #666;
     transform: translateY(4px);
 }
-
-div{
-    text-align: center;
-    padding: 8px; /*serve para criar espaço*/
+.voltar{
+    font-size: 50px;
+    color: white;
 }
 
-footer{
-    color: white;
-    text-align: center;
-    font-style: italic;
+.voltar:hover{
+    color: rgb(147, 113, 211);
 }
 
 /*Sobre*/
@@ -76,15 +104,6 @@ img{
 }
 div#msg{
     text-align: left;
-}
-
-.voltar{
-    font-size: 50px;
-    color: white;
-}
-
-.voltar:hover{
-    color: rgb(147, 113, 211);
 }
 
 /*Contactos*/
@@ -98,6 +117,7 @@ div#msg{
     font-size: 24px;
 }
 
+/*Projetos*/
 .zoom{
     padding: 60px;
     transition: transform .2s;
@@ -114,4 +134,5 @@ div#msg{
 
 * {
     box-sizing: border-box;
-  }
+}
+
