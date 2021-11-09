@@ -13,6 +13,10 @@ header{
     header{
         width: 500px;
     }
+        section{
+        width: 490px;
+    }
+
 }
 
 section{
@@ -24,11 +28,15 @@ section{
     box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.363);
 }
 
+#container{
+    display: flex;
+    margin: auto;
+    width: 60%;
+}
+
 /*Responsivo*/
 @media screen and (max-width: 425px) {
-    section{
-        width: 490px;
-    }
+    
 }
 div{
     text-align: center;
